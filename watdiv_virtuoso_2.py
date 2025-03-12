@@ -11,8 +11,7 @@ SPARQL_ENDPOINT = 'http://localhost:8890/sparql'
 
 # Générer un suffixe basé sur la date et l'heure actuelle
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-power_log_file = f'power_log_watdiv_virtuoso_{timestamp}.csv'
-query_time_log = f'query_time_log_watdiv_virtuoso_{timestamp}.csv'
+power_log_file = f'power_log_watdiv_virtuoso_withbuffer_{timestamp}.csv'
 
 # Initialisation de l'API Yoctopuce
 errmsg = YRefParam()
@@ -72,9 +71,9 @@ def measure_query_energy(query, baseline, sampling_interval=0.1):
     def sampling_thread():
         while not stop_sampling_event.is_set():  # Utilisation de l'Event pour arrêter le thread
             power = sensor.get_currentValue()
-            extra_power = max(power - baseline, 0)
-            sampling_data.append(extra_power)
-            print(f"Mesure : {power:.2f} W, Puissance excédentaire: {extra_power:.2f} W")
+            
+            sampling_data.append(power)
+            print(f"Mesure : {power:.2f} W, Puissance excédentaire: {power:.2f} W")
             time.sleep(sampling_interval)
     
     qt = threading.Thread(target=query_thread)
@@ -100,7 +99,7 @@ def measure_query_energy(query, baseline, sampling_interval=0.1):
 
 # Fonction principale pour exécuter les requêtes et enregistrer les mesures
 def execute_queries_and_log(q_file_path):
-    query_times = []
+ 
     energy_data = []
 
     with open(q_file_path, 'r') as file:
@@ -115,36 +114,27 @@ def execute_queries_and_log(q_file_path):
         if query:
             result, energy_consumed, execution_time, avg_power = measure_query_energy(query, baseline)
             
-            query_times.append({
-                'query': query[:50],
-                'execution_time_s': execution_time
-            })
+            
             energy_data.append({
                 'query': query[:50],
-                'execution_time_s': execution_time,
-                'puissance_moyenne_W': avg_power,
-                'energy_consumed_J': energy_consumed
+                'execution_time_s': round(execution_time, 4),  # Arrondi à 3 décimales
+                'puissance_moyenne_W': round(avg_power, 4),    # Arrondi à 3 décimales
+                'energy_consumed_J': round(energy_consumed, 4) # Arrondi à 3 décimales
             })
-            print(f"Requête exécutée en {execution_time:.2f}s, énergie consommée: {energy_consumed:.4f} J")
+            print(f"Requête exécutée en  énergie consommée: {energy_consumed:.4f} J")
    
-    # Enregistrement des résultats dans des fichiers CSV
-    with open(query_time_log, 'w', newline='') as csvfile:
-        fieldnames = ['query', 'execution_time_s']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(query_times)
-    
+   
     with open(power_log_file, 'w', newline='') as csvfile:
         fieldnames = ['query', 'execution_time_s', 'puissance_moyenne_W', 'energy_consumed_J']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(energy_data)
 
-    print(f"Les données des requêtes et de la consommation énergétique ont été enregistrées dans {query_time_log} et {power_log_file}.")
+    print(f"Les données des requêtes et de la consommation énergétique ont été enregistrées dans {power_log_file}.")
 
 # Exécution du script
 if __name__ == '__main__':
-    # q_file_path = '/home/adminlias/Desktop/PFE /queries_test.q'
-    q_file_path = '/home/adminlias/ddd/Downloads/rdf-exp-master/queries/individual/watdiv-100m/string/complex.q'
+    q_file_path = '/home/adminlias/data/PFE /test.q'
+
     execute_queries_and_log(q_file_path)
     YAPI.FreeAPI()

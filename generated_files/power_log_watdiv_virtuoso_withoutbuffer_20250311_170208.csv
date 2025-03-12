@@ -1,0 +1,25 @@
+query,execution_time_s,puissance_moyenne_W,energy_consumed_J
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.168,51.432,5.1432
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1536,54.26,5.426
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1549,50.994,5.0994
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1541,48.905,4.8905
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1548,51.592,5.1592
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1531,51.415,5.1415
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1547,49.794,4.9794
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1536,50.853,5.0853
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1544,49.21,4.921
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1546,50.956,5.0956
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1534,50.835,5.0835
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://og",0.1533,50.145,5.0145
