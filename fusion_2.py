@@ -50,22 +50,7 @@ sql_filepath = os.path.join("generated_files", output_filename)
 
 # Création du fichier SQL
 with open(sql_filepath, "w", encoding="utf-8") as f:
-    # Écriture de la structure de la table
-    f.write("DROP TABLE IF EXISTS query_metrics_2;\n")
-    f.write("CREATE TABLE query_metrics (\n")
-    f.write("    id INTEGER PRIMARY KEY AUTOINCREMENT,\n")
-    f.write("    query TEXT,\n")
-    f.write("    execution_time_s REAL,\n")
-    f.write("    puissance_moyenne_W REAL,\n")
-    f.write("    energy_consumed_J REAL,\n")
-    f.write("    SELECT_n INTEGER,\n")
-    f.write("    JOIN_n INTEGER,\n")
-    f.write("    FILTER_1ou_0 INTEGER,\n")
-    f.write("    UNION_n_ou_0 INTEGER,\n")
-    f.write("    ORDER_BY_1ou_0 INTEGER,\n")
-    f.write("    GROUP_BY_1ou_0 INTEGER,\n")
-    f.write("    LIMIT_OFFSET_1ou_0 INTEGER\n")
-    f.write(");\n\n")
+   
     
     # Insertion des données
     for row in merged_rows:
