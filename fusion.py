@@ -3,8 +3,8 @@ import os
 
 # Noms de fichiers d'entrée et de sortie
 powerlog_file = "/home/adminlias/data/PFE /generated_files/power_log_watdiv_virtuoso_withbuffer_20250311_170521.csv"  # Contient : query, execution_time_s, puissance_moyenne_W, energy_consumed_J
-stats_file = "/home/adminlias/data/PFE /generated_files/query_vector_watdiv_20250310_120213.csv"          # Contient : Requête, SELECT(n), JOIN(n), FILTER(1ou 0), UNION(n ou 0), ORDER BY(1ou 0), GROUP BY(1ou 0), LIMIT/OFFSET(1ou 0)
-output_filename = "merged_watdiv_virtuoso_withbuffer.csv"           # Fichier final à générer
+stats_file = "/home/adminlias/data/PFE /generated_files/query_vector_watdiv_20250313_162737.csv"          # Contient : Requête, SELECT(n), JOIN(n), FILTER(1ou 0), UNION(n ou 0), ORDER BY(1ou 0), GROUP BY(1ou 0), LIMIT/OFFSET(1ou 0)
+output_filename = "merged_watdiv_virtuoso_withbuffer_2.csv"           # Fichier final à générer
 
 # Vérifier que les fichiers existent
 for file in [powerlog_file, stats_file]:
@@ -33,6 +33,7 @@ for pl_row, st_row in zip(powerlog_rows, stats_rows):
         "puissance_moyenne_W": pl_row["puissance_moyenne_W"],
         "energy_consumed_J": pl_row["energy_consumed_J"],
         "SELECT(n)": st_row["SELECT(n)"],
+        "SELECTION": st_row["SELECTION"],
         "JOIN(n)": st_row["JOIN(n)"],
         "FILTER(1ou 0)": st_row["FILTER(1ou 0)"],
         "UNION(n ou 0)": st_row["UNION(n ou 0)"],
@@ -49,6 +50,7 @@ fieldnames = [
     "puissance_moyenne_W",
     "energy_consumed_J",
     "SELECT(n)",
+    "SELECTION",
     "JOIN(n)",
     "FILTER(1ou 0)",
     "UNION(n ou 0)",

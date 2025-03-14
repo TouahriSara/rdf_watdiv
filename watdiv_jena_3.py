@@ -12,8 +12,7 @@ SPARQL_ENDPOINT = 'http://localhost:3030/dataset/query'
 
 # Générer un suffixe basé sur la date et l'heure actuelle
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-power_log_file = f'power_log_watdiv_jena_withbuffer_{timestamp}.csv'
-
+power_log_file = f'power_log_watdiv_virtuoso_withbuffer_{timestamp}.csv'
 
 # Initialisation de l'API Yoctopuce
 errmsg = YRefParam()
@@ -44,7 +43,7 @@ def run_sparql_query(query):
         print(response.text)
         return None
 
-# Mesurer l'énergie consommée par une requête directement
+# Mesurer l'énergie consommée par une requête
 def measure_query_energy(query, sampling_interval=0.1):
     result_container = {}
     sampling_data = []
@@ -73,7 +72,7 @@ def measure_query_energy(query, sampling_interval=0.1):
     st.join()  # Attendre que le thread d'échantillonnage se termine
     execution_time = time.time() - start_time
 
-    # Calcul d'énergie
+    # Calcul de l'énergie consommée
     energy_consumed = sum(p * sampling_interval for p in sampling_data)
     avg_power = sum(sampling_data) / len(sampling_data) if sampling_data else 0
 
@@ -85,43 +84,36 @@ def measure_query_energy(query, sampling_interval=0.1):
 
 # Fonction principale pour exécuter les requêtes et enregistrer les mesures
 def execute_queries_and_log(q_file_path):
-    
     energy_data = []
 
     with open(q_file_path, 'r') as file:
         queries = file.read().split('#EOQ#')
-    
+
     # Exécution de chaque requête SPARQL
     for query in queries:
         query = query.strip()
         if query:
             result, energy_consumed, execution_time, avg_power = measure_query_energy(query)
             
-            
             energy_data.append({
                 'query': query[:50],
-                'execution_time_s': execution_time,
-                'puissance_moyenne_W': avg_power,
-                'energy_consumed_J': energy_consumed
+                'execution_time_s': round(execution_time, 4),  
+                'puissance_moyenne_W': round(avg_power, 4),   
+                'energy_consumed_J': round(energy_consumed, 4)  
             })
-            print(f"Requête exécutée en {execution_time:.2f}s, énergie consommée: {energy_consumed:.4f} J")
+            print(f"Requête exécutée en {execution_time:.2f}s, énergie consommée : {energy_consumed:.4f} J")
     
-    # Création du répertoire "generated_files" s'il n'existe pas
     os.makedirs("generated_files", exist_ok=True)
 
     # Définition des chemins de sortie des fichiers
-    
-    power_log_file_result = os.path.join("generated_files", power_log_file)
-    # Enregistrement des résultats dans des fichiers CSV
-    
-    
-    with open(power_log_file_result, 'w', newline='') as csvfile:
+    query_time_log_result = os.path.join("generated_files", power_log_file)
+    with open(query_time_log_result, 'w', newline='') as csvfile:
         fieldnames = ['query', 'execution_time_s', 'puissance_moyenne_W', 'energy_consumed_J']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(energy_data)
 
-    print(f"Les données des requêtes et de la consommation énergétique ont été enregistrées dans {query_time_log} et {power_log_file}.")
+    print(f"Les données des requêtes et de la consommation énergétique ont été enregistrées dans {power_log_file}.")
 
 # Exécution du script
 if __name__ == '__main__':
