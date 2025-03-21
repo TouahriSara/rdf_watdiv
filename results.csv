@@ -1,0 +1,1713 @@
+Query,Selection_Triple,Count_With,Count_Without,Selectivity
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic121> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic121> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic121> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic5> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic5> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic5> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic61> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic61> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic61> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic232> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic232> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic232> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic94> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic94> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic94> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic80> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic80> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic80> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic210> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic210> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic210> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic0> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic0> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic0> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic75> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic75> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic75> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic0> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic0> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic0> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic175> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic175> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic175> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic249> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic249> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic249> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic119> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic119> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic119> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic110> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic110> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic110> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic61> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic61> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic61> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic147> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic147> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic147> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic152> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic152> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic152> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic176> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic176> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic176> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic141> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic141> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic141> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic131> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic131> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic131> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic195> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic195> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic195> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic202> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic202> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic202> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic138> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic138> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic138> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic210> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic210> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic210> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic75> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic75> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic75> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic73> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic73> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic73> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic116> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic116> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic116> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic69> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic69> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic69> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic179> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic179> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic179> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic33> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic33> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic33> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic208> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic63> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic63> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic63> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic45> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic45> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic45> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic156> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic156> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic156> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic142> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic142> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic142> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic29> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic29> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic29> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic169> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic169> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic169> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic79> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic79> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic79> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic95> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic95> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic95> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic29> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic29> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic29> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic199> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic199> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic199> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic0> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic0> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic0> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic101> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic101> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic101> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic232> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic232> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic232> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic212> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic212> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic212> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic183> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic183> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic183> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic21> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic21> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic21> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic136> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic136> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic136> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic129> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic129> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic129> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic249> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic249> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic249> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic164> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic164> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic164> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic121> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic121> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic121> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic15> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic15> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic15> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic116> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic116> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic116> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic100> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic100> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic100> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic73> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic73> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic73> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic34> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic34> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic34> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic64> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic64> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic64> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic15> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic15> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic15> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic76> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic76> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic76> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic41> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic41> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic41> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic212> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic212> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic212> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic41> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic41> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic41> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic142> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic142> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic142> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic58> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic58> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic58> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic122> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic122> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic122> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic193> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic193> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic193> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic164> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic164> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic164> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic62> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic62> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic62> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic38> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic38> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic38> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic62> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic62> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic62> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic127> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic244> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic244> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic244> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic188> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic188> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic188> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic95> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic95> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic95> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic73> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic73> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic73> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic228> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic179> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic179> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic179> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic193> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic193> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic193> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic152> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic152> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic152> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic115> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic115> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic115> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic81> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic81> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic81> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic117> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic117> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic117> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic10> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic10> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic10> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic222> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic222> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic222> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic51> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic51> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic51> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic38> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic38> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic38> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic168> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic168> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic168> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic79> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic79> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic79> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic230> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic230> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic230> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic81> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic81> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic81> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic94> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic94> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic94> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic53> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic80> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic80> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic80> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic63> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic63> .,0,0,inf
+"SELECT ?v0 ?v2 ?v3 ?v4 ?v5 WHERE {
+	?v0 <http://ogp.me/ns#tag> <http://db.uwaterloo.ca/~galuc/wsdbm/Topic63> .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v2 .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+}",?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .,0,0,inf

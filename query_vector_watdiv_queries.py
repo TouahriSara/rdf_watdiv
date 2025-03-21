@@ -1,10 +1,37 @@
 import csv
 import re
 from datetime import datetime
-from collections import defaultdict, Counter
 import os
 
-
+def extract_where_clause(query):
+    """Extrait correctement la clause WHERE même avec des sous-requêtes imbriquées"""
+    query_lower = query.lower()
+    where_start = query_lower.find("where")
+    if where_start == -1:
+        return ""
+    
+    # Trouver la position de la première accolade après WHERE
+    brace_start = query.find("{", where_start)
+    if brace_start == -1:
+        return ""
+    
+    depth = 1
+    in_string = False
+    for i in range(brace_start + 1, len(query)):
+        c = query[i]
+        
+        if c in ['"', "'"]:
+            in_string = not in_string
+            
+        if not in_string:
+            if c == '{':
+                depth += 1
+            elif c == '}':
+                depth -= 1
+                if depth == 0:
+                    return query[brace_start+1:i].strip()
+    
+    return query[brace_start+1:].strip()
 
 def analyse_operations(query):
     keys = ["SELECT(n)", "SELECTION", "JOIN(n)", "FILTER(1ou 0)", 
@@ -16,18 +43,16 @@ def analyse_operations(query):
     if select_match:
         operations["SELECT(n)"] = len([v for v in select_match.group(1).split() if v.startswith('?')])
 
-    # Analyse WHERE
-    where_section = re.search(r'WHERE\s*{(.*?)}', query, re.DOTALL | re.IGNORECASE)
-    if where_section:
-        content = where_section.group(1)
+    # Analyse WHERE avec gestion des sous-requêtes
+    where_content = extract_where_clause(query)
+    if where_content:
         triple_pattern = re.compile(
             r'(?P<subject>\?[^\s]+|<[^>]+>|".*?")\s+'
             r'(?P<predicate><[^>]+>)\s+'
             r'(?P<object>\?[^\s]+|<[^>]+>|".*?")'
         )
-        triples = triple_pattern.finditer(content)
+        triples = triple_pattern.finditer(where_content)
         
-        # Compteurs
         selection_count = 0
         join_count = 0
         
@@ -56,26 +81,31 @@ def analyse_operations(query):
 
     return [operations[k] for k in keys]
 
-# Fonction process_sparql_queries reste inchangée
-
 def process_sparql_queries(input_filename, output_filename):
     results = []
-    results2 = []
     
     with open(input_filename, 'r') as f:
-        queries = f.read().split("#EOQ#")
-        nb_queries = len(queries)
-        for query in queries:
-            query = query.strip()
-            if query:
-                operation_vector = analyse_operations(query)
-                results.append([query] + operation_vector)
-                results2.append(operation_vector)
+        query_blocks = f.read().split("#EOQ#")
+        
+        for block in query_blocks:
+            block = block.strip()
+            if not block:
+                continue
+                
+            
+            
+            # Extraction de la requête nettoyée
+            query = re.sub(r'^\s*#.*?$', '', block, flags=re.MULTILINE).strip()
+            
+            # Analyse des opérations
+            operation_vector = analyse_operations(query)
+            
+            # Ajout du résultat avec la méthode
+            results.append([ query] + operation_vector)
 
     os.makedirs("generated_files", exist_ok=True)
     output_filepath = os.path.join("generated_files", output_filename)
     
-
     with open(output_filepath, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         headers = ['Requête', 'SELECT(n)', 'SELECTION', 'JOIN(n)', 
@@ -84,15 +114,11 @@ def process_sparql_queries(input_filename, output_filename):
         writer.writerow(headers)
         writer.writerows(results)
 
-    
+    print(f"Résultats enregistrés dans : {output_filepath}")
 
-    print(f"Les résultats ont été enregistrés dans le fichier : {output_filename}")
-
-
-# Chemins des fichiers et exécution
+# Exécution
 input_filename = '/home/adminlias/data/ddd/Downloads/rdf-exp-master/queries/workloads/watdiv-1b/string/workload_20k/all_sequential_F_C_S_L.q'
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 output_filename = f'query_vector_watdiv_{timestamp}.csv'
-
 
 process_sparql_queries(input_filename, output_filename)

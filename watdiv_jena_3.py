@@ -12,7 +12,7 @@ SPARQL_ENDPOINT = 'http://localhost:3030/dataset/query'
 
 # Générer un suffixe basé sur la date et l'heure actuelle
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-power_log_file = f'power_log_watdiv_virtuoso_withbuffer_{timestamp}.csv'
+power_log_file = f'power_log_watdiv_jena_withbuffer_{timestamp}.csv'
 
 # Initialisation de l'API Yoctopuce
 errmsg = YRefParam()
